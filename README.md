@@ -1,2 +1,2 @@
-# Kebosplit
+# Kelisplit
 Split horizontal-staggering keyboard
