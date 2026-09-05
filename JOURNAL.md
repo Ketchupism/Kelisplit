@@ -40,8 +40,28 @@ Right side
 
 Afterwards, I edited the TRRS Jack symbol pins from S, R1, R2, T, to 4, 3, 2, 1. The reason I did this was because when assigning footprints and updating PCB from Schematics, it gave me a huge amount of errors + warnings about the pins from the footprints and schematics being different. All I did was go into symbol editor for both TRRS Jacks and switched the pins. 
 <img width="1966" height="1050" alt="image" src="https://github.com/user-attachments/assets/324e8708-a670-47fa-b63a-e68404390e9a" />
+
+The footprint in PCB:
 <img width="504" height="1020" alt="image" src="https://github.com/user-attachments/assets/aef91f99-198d-492a-914c-507e479bcf41" />
 
+When finished, I just assigned all the footprints to the symbols. 
+
+RaspberryPi_Pico - Module:RaspberryPi_Pico_Common_THT, 
+
+Mousebite - Panelization.pretty-master:mouse-bite-5mm-slot, 
+
+1N4148 - Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal, 
+
+AudioJack4 - Keebio-Parts.pretty-master:TRRS-PJ-320A,
+
+MX_stab - PCM_marbastlib-mx:STAB_MX_2u, 
+
+RotaryEncoder_Switch - Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm, 
+
+SW_Push - Button_Switch_Keyoard:SW_Cherry_MX_1.00u_PCB
+
+This is a picture of updating the PCB from schematics:
+<img width="1692" height="1302" alt="image" src="https://github.com/user-attachments/assets/fb6297fa-2937-434e-aaaf-1ca130201e0d" />
 
 
  
