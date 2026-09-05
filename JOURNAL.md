@@ -42,6 +42,7 @@ Afterwards, I edited the TRRS Jack symbol pins from S, R1, R2, T, to 4, 3, 2, 1.
 <img width="1966" height="1050" alt="image" src="https://github.com/user-attachments/assets/324e8708-a670-47fa-b63a-e68404390e9a" />
 
 The footprint in PCB:
+
 <img width="504" height="1020" alt="image" src="https://github.com/user-attachments/assets/aef91f99-198d-492a-914c-507e479bcf41" />
 
 When finished, I just assigned all the footprints to the symbols. 
