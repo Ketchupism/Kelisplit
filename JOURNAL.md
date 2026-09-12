@@ -64,6 +64,30 @@ SW_Push - Button_Switch_Keyoard:SW_Cherry_MX_1.00u_PCB
 This is a picture of updating the PCB from schematics:
 <img width="1692" height="1302" alt="image" src="https://github.com/user-attachments/assets/fb6297fa-2937-434e-aaaf-1ca130201e0d" />
 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Redesigning keyboard schematics + footprints + layout
+ - Sat Sep 12
+ - 2.5 hrs
+
+The last few days I was busy with other work and school, where I don't think I don't have enough time to finish some portion of the keyboard. The switches on either side was incredibly hard to set up in PCB because when using coordinates and tilted switches, the x + y are different from 19.05 and I had no solution for setting up the ai03 plate generator. That's why this keyboard won't be a split alice keyboard. I'm gonna use a 60% gasket mount keyboard that is row staggered and is hot-swappable. This keyboard should be easy for me to complete by the end of this event. I also don't have any photos of me attempting to create the alice keyboard. 
+
+<img width="894" height="385" alt="image" src="https://github.com/user-attachments/assets/6ea5877a-42d6-4fb0-b064-af7ee377e5dd" />
+This photo is a reference to what keyboard I'm trying to recreate. 
+
+<img width="2176" height="698" alt="image" src="https://github.com/user-attachments/assets/ca203166-761c-4867-b7ac-c103c1246ff3" />
+Here is the new switch matrix, where there is no F row, no arrow keys, and new net labels
+
+<img width="694" height="954" alt="image" src="https://github.com/user-attachments/assets/371eaca6-772c-4b7e-a306-04e7a37e65fb" />
+One Raspberry Pi_Pico for 14 columns and 5 rows. removed GND and VCC. 
+
+<img width="984" height="676" alt="image" src="https://github.com/user-attachments/assets/983e4b2e-e4d8-4f94-8dec-13413dae9b78" />
+<img width="998" height="594" alt="image" src="https://github.com/user-attachments/assets/d011ce5d-6f07-44d4-8ac7-c9e2e0807b28" />
+The footprint for Hot Swap switches
+
+
+
+
+
 
  
 
